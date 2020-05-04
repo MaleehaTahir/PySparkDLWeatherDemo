@@ -1,0 +1,21 @@
+Testing started at 20:23 ...
+C:\Users\malee\PycharmProjects\DirectLineTest\venv\Scripts\python.exe "C:\Program Files\JetBrains\PyCharm 2018.3.4\helpers\pycharm\_jb_unittest_runner.py" --path C:/Users/malee/PycharmProjects/DirectLineTest/tests/test_duplicates.py
+Console output is saving to: C:\SparkDemoFiles
+Launching unittests with arguments python -m unittest C:/Users/malee/PycharmProjects/DirectLineTest/tests/test_duplicates.py in C:\Users\malee\PycharmProjects\DirectLineTest\tests
+20/05/03 20:23:31 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+20/05/03 20:23:32 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+20/05/03 20:23:32 WARN Utils: Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+20/05/03 20:23:32 WARN Utils: Service 'SparkUI' could not bind on port 4042. Attempting port 4043.
+
+
+Ran 1 test in 20.547s
+
+OK
+20/05/03 20:23:48 WARN TaskSetManager: Stage 0 contains a task of very large size (8053 KB). The maximum recommended task size is 100 KB.
+C:\Users\malee\Anaconda3\lib\socket.py:657: ResourceWarning: unclosed <socket.socket fd=1816, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 61129), raddr=('127.0.0.1', 61128)>
+  self._sock = None
+
+Process finished with exit code 0
