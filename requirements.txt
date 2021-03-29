@@ -28,7 +28,7 @@ prompt-toolkit==3.0.5
 py==1.8.1
 py4j==0.10.7
 pyarrow==0.17.0
-Pygments==2.6.1
+Pygments==2.7.4
 pypandoc==1.5
 pyparsing==2.4.7
 pytest==5.4.1
